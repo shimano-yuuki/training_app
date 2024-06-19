@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:training_app/presentation/page/page/componets/email_text_form_field.dart';
+import 'package:training_app/presentation/page/page/widgets/email_text_form_field.dart';
 
 class SignInPage extends ConsumerWidget {
   const SignInPage({super.key});

@@ -19,7 +19,7 @@ class _EmailTextFormFieldState extends State<EmailTextFormField> {
         border: const OutlineInputBorder(),
       ),
       validator: (value) {
-        if (value == null || value.isEmpty) {
+        if (value == null) {
           return 'メールアドレスを入力してください';
         }
         String pattern = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$';
