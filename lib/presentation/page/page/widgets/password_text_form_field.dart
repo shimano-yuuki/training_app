@@ -21,10 +21,8 @@ class _EmailTextFormFieldState extends State<EmailTextFormField> {
         validator: (value) {
           (value) {
             if (value == null) {
-              return 'パスワードを入力してくださいz';
+              return 'パスワードを入力してください';
             }
-            // Password validation rules:
-            // Minimum 8 characters, at least one uppercase letter, one lowercase letter, one number and one special character
             String pattern =
                 r'^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[!@#$%^&*(),.?":{}|<>]).{8,}$';
             RegExp regex = RegExp(pattern);
