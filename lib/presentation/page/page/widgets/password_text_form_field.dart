@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
-class EmailTextFormField extends StatefulWidget {
-  const EmailTextFormField({super.key, required this.labelText});
+class PasswordTextFormField extends StatefulWidget {
+  const PasswordTextFormField({super.key, required this.labelText});
   final String labelText;
 
   @override
-  State<EmailTextFormField> createState() => _EmailTextFormFieldState();
+  State<PasswordTextFormField> createState() => _EmailTextFormFieldState();
 }
 
-class _EmailTextFormFieldState extends State<EmailTextFormField> {
+class _EmailTextFormFieldState extends State<PasswordTextFormField> {
   final _emailController = TextEditingController();
   @override
   Widget build(BuildContext context) {
