@@ -9,7 +9,7 @@ final router = GoRouter(
     GoRoute(
         name: 'sign_in',
         path: '/',
-        builder: (context, state) => const SignInPage()),
+        builder: (context, state) => SignInPage()),
     GoRoute(
       name: 'home',
       path: '/home',
