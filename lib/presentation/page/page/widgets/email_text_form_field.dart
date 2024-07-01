@@ -16,12 +16,13 @@ class _EmailTextFormFieldState extends State<EmailTextFormField> {
       controller: _emailController,
       decoration: InputDecoration(
         labelText: widget.labelText,
-        border: const OutlineInputBorder(),
+        border: const UnderlineInputBorder(),
       ),
       validator: (value) {
         if (value == null) {
           return 'メールアドレスを入力してください';
         }
+        //TODO 一次的にTextFormFieldのExceptionはここで管理
         String pattern = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$';
         RegExp regex = RegExp(pattern);
         if (!regex.hasMatch(value)) {
