@@ -16,13 +16,14 @@ class _EmailTextFormFieldState extends State<PasswordTextFormField> {
         controller: _emailController,
         decoration: InputDecoration(
           labelText: widget.labelText,
-          border: const OutlineInputBorder(),
+          border: const UnderlineInputBorder(),
         ),
         validator: (value) {
           (value) {
             if (value == null) {
               return 'パスワードを入力してください';
             }
+            //TODO 一次的にTextFormFieldのExceptionはここで管理
             String pattern =
                 r'^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[!@#$%^&*(),.?":{}|<>]).{8,}$';
             RegExp regex = RegExp(pattern);
