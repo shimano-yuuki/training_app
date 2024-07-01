@@ -1,17 +1,7 @@
-# training_app
+# figure
 
-A new Flutter project.
+This is a revolutionary app that promotes muscle training.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# training_app
+This app is currently under development, so you can't use it yet, but we'll get it done!
